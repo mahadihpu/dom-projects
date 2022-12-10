@@ -1,0 +1,30 @@
+
+.main-container h1 {
+  color: #000;
+  font-size: 50px;
+  text-shadow: 1px 1px 0 #FFF, 1px 1px 0 #FFF, 1px 1px 0 #FFF,
+    -1px -1px 0 #fff;
+}
+
+button{
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+
+.main-container{
+    background-color: black;
+    text-align: center;
+    height: 100vh;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
